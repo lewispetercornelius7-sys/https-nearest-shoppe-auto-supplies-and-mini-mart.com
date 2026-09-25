@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nearest Shoppe Auto Supplies & Mini Mart</title>
+
+  <meta name="description"
+        content="Nearest Shoppe Auto Supplies & Mini Mart - auto supplies, vehicle cleaning products and everyday essentials.">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="hero">
+
+  <nav>
+    <a href="#" class="logo">Nearest Shoppe</a>
+
+    <div class="nav-links">
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <div class="hero-content">
+
+    <p class="eyebrow">AUTO SUPPLIES • MINI MART</p>
+
+    <h1>Your nearest stop for auto care & everyday essentials.</h1>
+
+    <p>
+      Vehicle cleaning products, auto supplies and convenient
+      mini-mart essentials in one place.
+    </p>
+
+    <div class="buttons">
+
+      <a class="button call"
+         href="tel:+18684721384">
+         Call 472-1384
+      </a>
+
+      <a class="button whatsapp"
+         href="https://wa.me/18684721384"
+         target="_blank">
+         WhatsApp Us
+      </a>
+
+    </div>
+
+  </div>
+
+</header>
+
+
+<main>
+
+<section id="products" class="section">
+
+  <p class="eyebrow">WHAT WE OFFER</p>
+
+  <h2>Shop essentials</h2>
+
+  <div class="products">
+
+    <article class="product-card">
+
+      <img src="assets/auto-cleaning.jpg"
+           alt="Auto cleaning supplies">
+
+      <h3>Auto Cleaning</h3>
+
+      <p>
+        Cleaning and care products to help keep vehicles
+        looking their best.
+      </p>
+
+    </article>
+
+
+    <article class="product-card">
+
+      <img src="assets/auto-supplies.jpg"
+           alt="Automotive supplies">
+
+      <h3>Auto Supplies</h3>
+
+      <p>
+        Useful automotive products for drivers, vehicle
+        owners and everyday maintenance.
+      </p>
+
+    </article>
+
+
+    <article class="product-card">
+
+      <img src="assets/mini-mart.jpg"
+           alt="Mini mart essentials">
+
+      <h3>Mini Mart</h3>
+
+      <p>
+        Convenient everyday items for your quick shopping needs.
+      </p>
+
+    </article>
+
+  </div>
+
+</section>
+
+
+<section id="about" class="about">
+
+  <div class="about-image">
+
+    <img src="assets/shop.jpg"
+         alt="Nearest Shoppe storefront">
+
+  </div>
+
+
+  <div class="about-text">
+
+    <p class="eyebrow">ABOUT US</p>
+
+    <h2>Convenience close to home.</h2>
+
+    <p>
+      Nearest Shoppe Auto Supplies & Mini Mart brings
+      vehicle-care products and everyday essentials together,
+      making quick shopping simple and convenient.
+    </p>
+
+    <p>
+      Contact us before visiting to ask about availability
+      of a product.
+    </p>
+
+  </div>
+
+</section>
+
+
+<section id="contact" class="contact">
+
+  <p class="eyebrow">CONTACT</p>
+
+  <h2>Get in touch</h2>
+
+  <div class="contact-boxes">
+
+    <a href="tel:+18684721384">
+      <strong>Phone</strong>
+      <span>472-1384</span>
+    </a>
+
+
+    <a href="https://wa.me/18684721384"
+       target="_blank">
+
+      <strong>WhatsApp</strong>
+      <span>Message us</span>
+
+    </a>
+
+
+    <a href="mailto:lewispetercornelius7@gmail.com">
+
+      <strong>Email</strong>
+      <span>lewispetercornelius7@gmail.com</span>
+
+    </a>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  © 2026 Nearest Shoppe Auto Supplies & Mini Mart
+
+</footer>
+
+</body>* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #17202a;
+  background: #f8fafc;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+/* HERO */
+
+.hero {
+  min-height: 75vh;
+  color: white;
+
+  background:
+    linear-gradient(
+      rgba(17, 24, 39, 0.90),
+      rgba(17, 24, 39, 0.70)
+    ),
+    url("assets/shop.jpg") center/cover;
+}
+
+
+/* NAVIGATION */
+
+nav {
+  max-width: 1100px;
+  margin: auto;
+
+  padding: 22px 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a:hover {
+  color: #f59e0b;
+}
+
+
+/* HERO CONTENT */
+
+.hero-content {
+  max-width: 1100px;
+  margin: auto;
+
+  padding: 90px 20px;
+}
+
+.eyebrow {
+  color: #f59e0b;
+
+  font-size: 0.8rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.15em;
+}
+
+h1 {
+  max-width: 850px;
+
+  margin: 15px 0;
+
+  font-size: clamp(2.5rem, 7vw, 5rem);
+
+  line-height: 1.05;
+}
+
+.hero-content > p:not(.eyebrow) {
+  max-width: 650px;
+
+  font-size: 1.15rem;
+}
+
+
+/* BUTTONS */
+
+.buttons {
+  display: flex;
+
+  gap: 12px;
+
+  flex-wrap: wrap;
+
+  margin-top: 30px;
+}
+
+.button {
+  padding: 13px 20px;
+
+  border-radius: 10px;
+
+  font-weight: 800;
+}
+
+.call {
+  background: #f59e0b;
+
+  color: #111827;
+}
+
+.whatsapp {
+  background: #16a34a;
+
+  color: white;
+}
+
+.button:hover {
+  opacity: 0.85;
+}
+
+
+/* SECTIONS */
+
+.section,
+.about,
+.contact {
+  max-width: 1100px;
+
+  margin: auto;
+
+  padding: 80px 20px;
+}
+
+h2 {
+  font-size: 2.4rem;
+
+  line-height: 1.1;
+
+  margin-top: 8px;
+
+  margin-bottom: 30px;
+}
+
+
+/* PRODUCTS */
+
+.products {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 22px;
+}
+
+.product-card {
+  background: white;
+
+  border-radius: 18px;
+
+  overflow: hidden;
+
+  box-shadow:
+    0 8px 30px rgba(0, 0, 0, 0.08);
+}
+
+.product-card img {
+  width: 100%;
+
+  height: 220px;
+
+  object-fit: cover;
+}
+
+.product-card h3,
+.product-card p {
+  margin-left: 20px;
+
+  margin-right: 20px;
+}
+
+.product-card h3 {
+  font-size: 1.4rem;
+}
+
+.product-card p {
+  padding-bottom: 20px;
+}
+
+
+/* ABOUT */
+
+.about {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 50px;
+
+  align-items: center;
+}
+
+.about-image img {
+  width: 100%;
+
+  border-radius: 20px;
+}
+
+
+/* CONTACT */
+
+.contact {
+  background: white;
+}
+
+.contact-boxes {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 16px;
+}
+
+.contact-boxes a {
+  padding: 22px;
+
+  border: 1px solid #e5e7eb;
+
+  border-radius: 14px;
+
+  background: white;
+}
+
+.contact-boxes strong,
+.contact-boxes span {
+  display: block;
+}
+
+.contact-boxes span {
+  margin-top: 5px;
+
+  overflow-wrap: anywhere;
+}
+
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+
+  padding: 30px;
+
+  background: #111827;
+
+  color: white;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 750px) {
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero-content {
+    padding-top: 70px;
+  }
+
+  .products,
+  .about,
+  .contact-boxes {
+    grid-template-columns: 1fr;
+  }
+
+  .section,
+  .about,
+  .contact {
+    padding: 55px 18px;
+  }
+
+  h1 {
+    font-size: 2.7rem;
+  }
+
+}
+</html> 

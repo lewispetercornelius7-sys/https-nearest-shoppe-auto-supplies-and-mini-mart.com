@@ -1,1 +1,0 @@
-# https-nearest-shoppe-auto-supplies-and-mini-mart.com
